@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Work1</title>
+        <style>
+            .button{
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+
+            .button1 {background-color: #4CAF50;}
+
+            .button2 {background-color: #444242;}
+            
+            input[type=text], select {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            input[type=date], select {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            input[type=submit], select {
+                border: none;
+                color: rgb(255, 255, 255);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+
+            div {
+                border-radius: 5;
+                width: 20%;
+                padding: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Question01:</h1>
+        <div >
+            <form>
+                <fieldset style="background: #e9ebeb">
+                    <label>Name: </label><br>
+                    <input type="text" name="name" placeholder="Insert a name.."/><br>
+                    <label>Hometown: </label><br>
+                    <input type="text" name="address" placeholder="Insert home town.."/><br>
+                    <button class="button button1">click</button>
+
+                </fieldset>
+            </form>
+        </div>
+        <h1>Question02:</h1>
+        <div >
+            <form>
+                <fieldset style="background: #e9ebeb">
+                    <label>Name: </label><br>
+                    <input type="text" name="name" placeholder="Insert a name.."/><br>
+                    <label>Birthday: </label><br>
+                    <input type="date" name="bday"/><br>
+                    <button class="button button1">click</button>
+
+                </fieldset>
+            </form>
+        </div>
+        <h1>Question03:</h1>
+        <div>
+            <form>
+                <fieldset style="background: #ffffff;">
+                    <h3>Available Packages</h3>
+                    <input type="checkbox" id="pkg1" name="pkg1" value="wedding">
+                    <label for="pkg1">Wedding Package</label><br>
+                    <input type="checkbox" id="pkg2" name="pkg2" value="bday">
+                    <label for="pkg2">Birthday Package</label><br>
+                    <input type="checkbox" id="pkg3" name="pkg3" value="normal">
+                    <label for="pkg3">Normal Function Package</label><br>  
+                    <input type="checkbox" id="pkg4" name="pkg4" value="dayout">
+                    <label for="pkg4">Day out Package</label><br><br>
+                    <button class="button button2">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
